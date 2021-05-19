@@ -11,40 +11,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://gearedup.zone">GearedUp!</a>
+          Welcome to the<a href="https://gearedup.zone">GearedUp</a> customer portal!
         </h1>
 
         <p className={styles.description}>
-          We can edit your {' '}
-          <code className={styles.code}>pages/index.js</code>
+          What can we do for you today?
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Service 1 &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Websites &rarr;</h3>
+            <p>View all your previous and current websites.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Service 2 &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Payments &rarr;</h3>
+            <p>View your payment history, or make a payment.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Service 3 &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Data &rarr;</h3>
+            <p>View/Edit all of your data we have.</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Service 4 &rarr;</h3>
+            <h3>Create a Ticket &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Found a problem with the portal? Let us know.
             </p>
           </a>
         </div>
