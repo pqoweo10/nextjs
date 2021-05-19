@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home | Customer Portal | GearedUp</title>
+        <link rel="icon" href="https://static.wixstatic.com/media/6a5579_af1b4ee821284e218d2e24416ca2b250~mv2.jpg/v1/crop/x_0,y_0,w_115,h_128/fill/w_48,h_53,al_c,q_80,usm_0.66_1.00_0.01/GearedUp_Logo_Final.webp"/>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the<a href="https://gearedup.zone">GearedUp</a> customer portal!
+          Welcome to the <a href="https://gearedup.zone">GearedUp</a> customer portal!
         </h1>
 
         <p className={styles.description}>
@@ -19,7 +19,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="../pages/websites.js" className={styles.card}>
             <h3>Websites &rarr;</h3>
             <p>View all your previous and current websites.</p>
           </a>
