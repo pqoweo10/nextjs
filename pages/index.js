@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <div onClick={Websites} className={styles.card}>
+          <a href={Websites} className={styles.card}>
             <h3>Websites &rarr;</h3>
             <p>View all your previous and current websites.</p>
           </div>
