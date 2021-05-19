@@ -111,7 +111,8 @@
 }
 
 .logo {
-  height: auto;
+  height: 30px;
+  width: 27.16px;
 }
 
 @media (max-width: 600px) {
