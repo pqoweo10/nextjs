@@ -57,7 +57,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="GearedUp Logo" className={styles.logo} />
+          <img src="https://static.wixstatic.com/media/6a5579_af1b4ee821284e218d2e24416ca2b250~mv2.jpg/v1/crop/x_0,y_0,w_115,h_128/fill/w_48,h_53,al_c,q_80,usm_0.66_1.00_0.01/GearedUp_Logo_Final.webp" alt="GearedUp Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
