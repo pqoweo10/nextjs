@@ -22,8 +22,8 @@ export default function Home() {
         <div className={styles.grid}>
           <a href={Websites} className={styles.card}>
             <h3>Websites &rarr;</h3>
-            <p>View all your previous and current websites.</p>
-          </div>
+            <p>Remove meView all your previous and current websites.</p>
+            </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Payments &rarr;</h3>
