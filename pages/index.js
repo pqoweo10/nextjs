@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Websites from './websites'
 
 export default function Home() {
   return (
@@ -19,10 +20,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="../pages/websites.js" className={styles.card}>
+          <div onClick={Websites} className={styles.card}>
             <h3>Websites &rarr;</h3>
             <p>View all your previous and current websites.</p>
-          </a>
+          </div>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Payments &rarr;</h3>
