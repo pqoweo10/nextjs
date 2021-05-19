@@ -20,10 +20,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href={Websites} className={styles.card}>
+          <button onClick={Websites} className={styles.card}>
             <h3>Websites &rarr;</h3>
             <p>Remove meView all your previous and current websites.</p>
-            </a>
+            </button>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Payments &rarr;</h3>
